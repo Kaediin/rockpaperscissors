@@ -15,10 +15,10 @@ This Java-based application allows users to play the classic game of Rock, Paper
 
 ## Libraries Used
 
-- **JUnit 5**: A popular unit testing framework for Java. Used for writing and executing tests in `GameTest.java` to ensure the game logic is accurate and stable.
+- **JUnit 5 (Maven: org.junit.jupiter:junit-jupiter:5.9.0)**: A popular unit testing framework for Java. Used for writing and executing tests in `GameTest.java` to ensure the game logic is accurate and stable.
     - **Purpose**: Provides annotations and assertions for writing tests, running tests, and checking results. It's essential for maintaining code quality and ensuring that changes don't break existing functionality.
 
-- **Mockito**: A mocking framework for unit tests in Java. Used in conjunction with JUnit to test `Game` class functionality.
+- **Mockito (Maven: org.mockito:mockito-core:5.8.0)**: A mocking framework for unit tests in Java. Used in conjunction with JUnit to test `Game` class functionality.
     - **Purpose**: Allows the creation of test double objects (mocks) in automated unit tests. Particularly useful for mocking dependencies like user input in `GameTest.java`.
 
 ## Getting Started
